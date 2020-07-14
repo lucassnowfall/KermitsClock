@@ -8,13 +8,12 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
     <!-- CSS  -->
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- GOOGLE FONTS -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Gochi+Hand&family=Orbitron:wght@700&display=swap"
       rel="stylesheet"
     />
 
@@ -24,15 +23,16 @@
   </head>
 
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid text-center mx-auto">
+      <h1 class="text-responsive title">Kermit's Clock</h1>
+
       <img
-        class="img-fluid kermitImg"
+        class="img-fluid kermitImg m-2"
         src="/images/chilling.png"
         alt="Kermits Mood"
       />
-
-      <h1>Kermit is chilling right now</h1>
-      <button type="button" class="btn btn-success">Success</button>
+      <h1 class="text-responsive" id="clock">Time</h1>
+      <h2 class="text-responsive moodText">Kermit is chilling right now</h2>
     </div>
   </body>
 
@@ -52,4 +52,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"
   ></script>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
 </html>
